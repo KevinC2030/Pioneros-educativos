@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .btn-custom {
+            background-color: #09124F;
+            /* Verde personalizado */
+            border-color: #09124F;
+            /* Color del borde */
+            color: white;
+        }
+
+        .title {
+            color: #646363;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container col-6 mt-5">
+
+        <form class="row g-3">
+            <div class="col-12 text-center">
+                <h1 class="title"> <i>Regístrate</i></h1>
+            </div>
+            <div class="col-12">
+                <label for="nombres" class="form-label"><strong>Nombres:</strong></label>
+                <input type="text" class="form-control" id="nombres" placeholder="Ingrese su nombre">
+            </div>
+            <div class="col-12 mt-3">
+                <label for="apellidos" class="form-label"><strong>Apellidos:</strong></label>
+                <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos">
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="inputEmail" class="form-label"><strong>Email:</strong></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese su email@">
+            </div>
+            <div class="col-md-12 mt-3">
+                <label for="inputPassword" class="form-label"><strong>Contraseña:</strong></label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="password">
+            </div>
+            <div class="col-12 mt-3" id="submitBtn">
+                <button type="submit" class="btn btn-custom btn-block">Registrar</button>
+            </div>
+            <div class="col-md-12 text-center mt-4">
+                <p><strong> ¿Ya estas registrado?  <a href="login.html"> Iniciar Sesión </a></strong></p>
+            </div>
+        </form>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
