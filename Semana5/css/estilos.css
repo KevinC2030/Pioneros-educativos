@@ -1,0 +1,136 @@
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(4, 4, 80);
+    align-items: center;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+}
+nav a:hover{
+color: gray;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin: 5px 0px 10px;
+  }
+  .container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+  }
+  
+  .container-form p{
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 600px;
+    text-align: center;
+    margin: 50px 90px 50px;
+
+  }
+  .container-form h3{
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 600px;
+    text-align: center;
+    margin: 50px 90px 400px;
+  }
+  .container-form a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    width: 200%;
+    margin-bottom: 15px;
+    color: rgb(117, 117, 117);
+    font-weight: 700;
+  }
+  .container-form form .campo{
+    width: 40%;
+    padding: 5px 15px 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin: 0px 0px 40px;
+    outline: 20px;
+  }
+  .container-form form .CAMPO{
+    width: 42%;
+    padding: 5px 10px 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    outline: 20px;
+  }
+  .container-form form .Campo{
+    width: 91%;
+    padding: 5px 6px 10px;
+    font-size: 13px;
+    margin-bottom: 40px;
+    outline: 20px;
+  }
+  .container-form form textarea{
+    width: 91%;
+    padding: 0px 38px 35px;
+    font-size: 13px;
+    max-width: 413px;
+    min-width: 410px;
+    min-height: 140px;
+    max-height: 150px;
+  }
+  .container-form .btn-enviar{
+    padding: 10px ;
+    width: 94%;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(8, 8, 143);
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .container-form .btn-enviar:hover{
+    background: 09124F;
+  }
+  .buttons {
+    min-width: 600px;
+    display:flex;
+    width: 10px;
+    /*justify-content: space-around;*/
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  } 
